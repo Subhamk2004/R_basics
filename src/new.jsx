@@ -1,6 +1,6 @@
 function Log_name() {
     // WE can write normal js before a return statement ex:
-    let my_name = "Subham Kumar";
+    let my_name = "Subham Kumar Rahar";
     // and we can use the variable or others in our return statement as:
 
     return(

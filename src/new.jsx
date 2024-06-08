@@ -1,6 +1,6 @@
 function Log_name() {
     return(
-        <h1>Hello Subham Kumar</h1>
+        <h1>Hello, Subham Kumar</h1>
     )
 }
 

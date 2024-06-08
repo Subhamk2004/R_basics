@@ -1,11 +1,11 @@
 function Log_name() {
     // WE can write normal js before a return statement ex:
-    let my_name = "Subham Kumar Rahar";
+    let myName = "Subham Kumar Rahar";
     // and we can use the variable or others in our return statement as:
 
     return(
         <>
-            <h1>Hello {my_name}</h1>
+            <h1>Hello {myName}</h1>
         </>
 
     )

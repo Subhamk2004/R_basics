@@ -1,10 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // this root element is present in index.html file
 // creating a virtual DOM
+
+// reconcilitiation is an algorithm which differs two trees to look for changes and then
+// make changes which have changes and not the whole dom, this is what we call
+// virtual dom
+
+// we should use keys while iterating through lists or arrays, for fast, stable,
+// predictable, unique operations
+
+
+//createRoot create a dom like structure, compares the dom we created and just makes
+// important changes only and not the whole dom
+// and this is virtual dom
+
 // jsx is just like js, it's your choice how you write jsx or js .
 
 

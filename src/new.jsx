@@ -22,3 +22,8 @@ export default Log_name;
 // as an html element in the return of app.jsx;
 
 // remember this new.jsx is a component, so congrats I created a component in react
+
+
+// do check both the react_projects folder and the basics folder too,
+// most of the content is in projects so learn from there
+

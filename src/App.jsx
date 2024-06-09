@@ -1,11 +1,12 @@
 import Log_name from './new.jsx';
-
+import TailwindProps from "./tailwind&PropsLearn.jsx";
 
 function App() {
 
   return (
       <>
           <Log_name/>
+          <TailwindProps/>
           <h1>React with vite</h1>
       </>
   )

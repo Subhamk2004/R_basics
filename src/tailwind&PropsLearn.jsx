@@ -1,4 +1,13 @@
+import MacCard from "./components/mac_card.jsx";
+
 function TailwindProps() {
+    let coc_profile = {
+        user_name : 'John Lark',
+        townhall : 11,
+        isActive: true,
+        clan: 'KV fighters'
+    }
+    let my_collection = ['Laptop', 'Keyboard', 'Mouse', 'headphones']
     return(
         <>
             <h1 className='bg-green-400 text-black rounded-md text-center mb-4'>
@@ -61,6 +70,29 @@ function TailwindProps() {
       {/*// instead of making this card here, let's make it as a component and pass it here
             as below
       */}
+      <MacCard laptop = 'hp15s-eq-0063au' button_text = 'Buy' coc_info = {coc_profile}
+               collection = {my_collection} />
+      <MacCard laptop = 'Hp victus ryzen 5' button_text = 'Try'/>
+
+            {/* now we don't have to make card again and again and then pass different
+            values to it, we just made a component imported it here, and passed props,
+            to display different data for different passed props
+            */}
+
+            {/*Since coc_profile is also a variable so we have to pass it like that {}
+            and yes we can pass more than one properties or objects or arrays just like that
+
+            */}
+
+            {/*// now this is just a component we can load it anywhere we want
+             and don't have to write the same code everywhere
+             */}
+        {/*    Props can be added to cards or functions or etc */}
+
+        {/*now this card has it's own default settings and value, but if we have to
+        import so many cards, but want to change values in each of them, then
+         we will use (props)
+        */}
 
 
         </>
